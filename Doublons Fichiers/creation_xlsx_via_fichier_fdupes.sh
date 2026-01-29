@@ -2,6 +2,7 @@
 # le script prends dans le meme repertoire le fichier doublons.txt 
 # généré avec la commande suivante
 # fdupes -R /share/VCA/DGSRV/ -G 20000000 -S -l -t > doublons.txt
+# pip install openpyxl
 INPUT="doublons.txt"
 OUTPUT="doublons.xlsx"
 UNIT="Mo"   # octets | Ko | Mo
